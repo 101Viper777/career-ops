@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 🍪
+      - button "Dismiss" [ref=e7] [cursor=pointer]
+      - heading "Privacy Notice" [level=4] [ref=e8]
+      - paragraph [ref=e9]: This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies.
+  - link "SafetyCulture logo" [ref=e12] [cursor=pointer]:
+    - /url: https://jobs.lever.co/safetyculture-2
+    - img "SafetyCulture logo" [ref=e13]
+  - generic [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "AI Solutions Engineer" [level=2] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: Sydney
+          - generic [ref=e22]: Operations – Business Operations /
+          - generic [ref=e23]: Full-time Permanent /
+          - generic [ref=e24]: Hybrid
+      - link "apply for this job" [ref=e26] [cursor=pointer]:
+        - /url: https://jobs.lever.co/safetyculture-2/8c04b976-d483-4476-9fb2-7fc2af6f5492/apply
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: Why join us?
+        - generic [ref=e30]: We’re a global tech company, just not the kind you’re picturing.
+        - generic [ref=e31]: Sure, we’ve got catered lunches, team events, cool merch, and yes... dogs in the office. But that’s not why people join.
+        - generic [ref=e33]: Our team of nearly a thousand people wakes up every day to make our product and our customers’ lives better. At SafetyCulture, you’ll hear “yes, let’s give it a shot” more often than “that’s not how we do things here.”
+        - generic [ref=e35]: People join because we’re building tools that make work better for the 3 billion people who keep the world moving - factory floor operators, baggage handlers, truck drivers, servers, store assistants. The ones who make things happen. We’ve got the scale and innovation you’d expect from big tech. The difference? No endless layers of sign-off. No corporate theatre. Just smart, experienced people solving real problems fast .
+        - generic [ref=e37]: The scale is big. But the ownership’s personal. Every full-time team member gets equity - real skin in the game. When we grow, you do too. We’re not perfect, no company is. But this next chapter of our growth is about scaling with intelligence, not just size - fueled by operational maturity, a clear vision, and a strong focus on AI.
+        - generic [ref=e39]: This is big tech impact, without the big tech ick. If that excites you more than it scares you, you’ll fit right in.
+        - generic [ref=e41]: "SafetyCulture is accelerating business functions outside of Product, Design & Engineering (PDE) toward the AI-native tooling and workflows that PDE already benefits from. A central AI Ops team owns the platform: shared infrastructure, governance, and distribution. Engineers embedded in Business Units (Go-to-Market, Finance, People & Culture) drive adoption where the work happens. This role exists to build and operate the systems that make that possible. Where the AI Ops Engineer sets strategic direction and conceptual architecture, the AI Solutions Engineer takes those designs to detailed, implementable decisions and then builds them. You own the management of the AI Ops platform components – containerised services, auth layers, deployment pipelines, and automation – housed within SafetyCulture’s shared cloud infrastructure. You negotiate their architecture with Platform Engineering and guide Business Unit engineers in using the platform the right way. This role does not set conceptual direction – that sits with the AI Ops Engineer. It does not own platform infrastructure – that sits with Platform Engineering. What it owns is the process and craft of getting from “designed” to “shipped and trusted.” This is a senior individual contributor role."
+      - generic [ref=e43]:
+        - heading "Key responsibilities" [level=3] [ref=e44]
+        - generic [ref=e46]:
+          - generic [ref=e47]: Platform and infrastructure
+          - list [ref=e48]:
+            - listitem [ref=e49]: Own the AI Ops platform layer – containerised services, authentication layers, hosting, and deployment pipelines – so Business Unit engineers can build and ship reliably without depending on Platform Engineering for every component
+            - listitem [ref=e50]: Build and maintain custom MCP (Model Context Protocol) connectors and integration components that multiple teams can rely on without duplicating effort – built to security and reliability standards from the start
+            - listitem [ref=e51]: Implement CI/CD pipelines, automated testing, and deployment workflows for platform components
+            - listitem [ref=e52]: Turn technical processes into easy-to-use skills for non-technical users, for example, building a governance-check skill that validates submissions before IT publishes them to the business
+          - generic [ref=e53]: Architecture and technical decisions
+          - list [ref=e54]:
+            - listitem [ref=e55]: Collaborate with the AI Ops Engineer to take conceptual architecture into detailed, implementable technical designs, then author Architecture Decision Records (ADRs) that document those decisions for new components and integration patterns
+            - listitem [ref=e56]: "Run Requests for Comment (RFCs) for cross-cutting proposals (e.g. skill governance and distribution): gathering input, driving consensus, and documenting outcomes"
+            - listitem [ref=e57]: Evaluate build-vs-buy decisions, factoring in maintenance burden, vendor lock-in, and platform alignment
+          - generic [ref=e58]: Governance and automation
+          - list [ref=e59]:
+            - listitem [ref=e60]: "Co-own the technical implementation of skill governance with the broader AI Ops team: building and scaling the review, publish, and distribution pipeline so it handles company\x02 wide volume without becoming a bottleneck"
+            - listitem [ref=e61]: Progressively automate governance steps – replacing the highest-friction manual work first – so the review-to-publish pipeline scales without adding headcount
+            - listitem [ref=e62]: Implement adoption tracking and usage instrumentation so the team can measure ROI, without necessarily owning the ongoing analysis
+            - listitem [ref=e63]: "Define and enforce platform standards: connector patterns, skill composition rules, metadata schemas, through tooling rather than process overhead"
+          - generic [ref=e64]: Business Unit engineer guidance
+          - list [ref=e65]:
+            - listitem [ref=e66]: Act as the go-to peer consultant for Business Unit engineers – unblocking them on auth, hosting, and solution design before they build the wrong thing, and raising the quality of their builds over time
+            - listitem [ref=e67]: "Co-own application maturity with Business Unit engineers (the subject-matter experts for their domains): guiding them in the right way to take solutions from prototype through to production, and ensuring standards are met"
+            - listitem [ref=e68]: Create reusable patterns, templates, and reference implementations that lower the barrier for Business Unit engineers to build well, drive regular collaborative discussions with the Business Unit engineers to keep the community connected and encourage partnering on common requirements
+          - generic [ref=e69]: PDE community
+          - list [ref=e70]:
+            - listitem [ref=e71]: Bridge PDE best practices and tooling into the Business Unit context – so the AI Ops platform benefits from what engineering is already building, rather than reinventing it
+      - generic [ref=e73]:
+        - heading "Required Skills & Experience" [level=3] [ref=e74]
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: Required skills & experience
+          - paragraph [ref=e79]: You have built and operated production systems end-to-end, not just contributed to them. You
+          - paragraph [ref=e80]: make sound architectural decisions without needing sign-off on every call, move fast without
+          - paragraph [ref=e81]: breaking things, and have the judgment that only comes from having shipped at pace and owned
+          - paragraph [ref=e82]: what breaks. This role won’t slow down while you find your feet. You’ll be expected to drive from
+          - paragraph [ref=e83]: day one.
+          - paragraph [ref=e84]: Technical
+          - list [ref=e85]:
+            - listitem [ref=e86]: Expert in at least one of Python, TypeScript, or Go, and comfortable picking up the others
+            - listitem [ref=e87]: "Strong understanding of containerisation (Docker as a minimum): able to design, build, and debug containerised services confidently"
+            - listitem [ref=e88]: "Experience with authentication and authorisation systems: OAuth, service accounts, API keys, Role-Based Access Control (RBAC)"
+            - listitem [ref=e89]: "Solid experience with a major cloud provider: deploying services, managing infrastructure, and operational monitoring"
+            - listitem [ref=e90]: Proven experience with CI/CD principles and GitHub-based automation (Actions, webhooks, branch protection)
+          - paragraph [ref=e91]: AI and platform
+          - list [ref=e92]:
+            - listitem [ref=e93]: "Proven hands-on experience building Large Language Model (LLM)-powered applications in production: agents, skills, or AI-native workflows. Experience with the Claude/Anthropic ecosystem is a strong advantage; deep experience with any major AI provider is what matters."
+            - listitem [ref=e94]: "Solid understanding of MCP (Model Context Protocol) or similar AI integration patterns: how AI connects to external systems and what good connector design looks like"
+            - listitem [ref=e95]: "Experience with skills-based or plugin-based AI architectures: composable, reusable components that serve multiple users or teams"
+          - paragraph [ref=e96]: Behavioural
+          - list [ref=e97]:
+            - listitem [ref=e98]: Works with an AI-first approach to development and documentation, using AI tools as a core part of your workflow, not as an afterthought
+            - listitem [ref=e99]: Collaborates strongly with other Engineers and stakeholders, building strong relationships with them, with a win-win mindset
+            - listitem [ref=e100]: Produces clear engineering documentation – design rationale, implementation patterns, technical proposals – and treats it as a tool for alignment and continuity, not overhead
+            - listitem [ref=e101]: Strong sense of ownership without needing authority. Influences through architecture and quality, and can set standards for engineers who don’t report to you
+            - listitem [ref=e102]: Builds for others. Designs systems with internal consumers in mind – balancing what Business Unit engineers need right now against platform integrity and long-term maintainability
+            - listitem [ref=e103]: Bias toward shipping over perfecting
+            - listitem [ref=e104]: Navigates ambiguity well. This is a new function in a fast-moving space. You break down undefined problems, make a call, and adjust as you learn
+            - listitem [ref=e105]: Self-directed and autonomous. You don’t need daily oversight to stay productive. You set your own priorities, know when to escalate, and own your outcomes
+            - listitem [ref=e106]: Curious and constantly learning. You stay current with the AI ecosystem, experiment with new tools and patterns, and bring what you learn back into the platform
+            - listitem [ref=e107]: Solution-oriented. When you hit a blocker, you come with options, not just the problem. You keep things moving
+      - generic [ref=e108]:
+        - generic [ref=e109]: We’re committed to building inclusive teams and cultivating a sense of belonging so our people can bring their whole authentic selves to work each day. We seek to make reasonable adjustments throughout our recruitment process to create an even playing field for all candidates. Thanks to the tireless efforts of the entire SafetyCulture team we’ve built an incredible culture which has seen us recognised as a Best Place to Work in Australia, the US and the UK .
+        - generic [ref=e111]: Even if you don't meet every requirement listed in the ad, please consider applying for this role. We prioritise inclusion and value individuals with potential over a checklist of qualifications. Don't rule yourself out, hit that apply button if this job resonates with you.
+        - generic [ref=e114]:
+          - text: You can find out more about life at SafetyCulture via
+          - link "Youtube" [ref=e115] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/SafetycultureAu
+          - text: ","
+          - link "Twitter" [ref=e116] [cursor=pointer]:
+            - /url: https://x.com/safetyculturehq?lang=en
+          - text: ","
+          - link "Instagram" [ref=e117] [cursor=pointer]:
+            - /url: https://www.instagram.com/safetyculturehq/?hl=en
+          - text: and
+          - link "LinkedIn" [ref=e118] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/safetyculturehq/
+          - text: .
+        - generic [ref=e120]: To all recruitment agencies, we do not accept resumes or partnership opportunities. Please do not forward resumes to SafetyCulture or any of our employees. We are not responsible for any fees associated with unsolicited resumes.
+      - generic [ref=e122]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+      - link "apply for this job" [ref=e124] [cursor=pointer]:
+        - /url: https://jobs.lever.co/safetyculture-2/8c04b976-d483-4476-9fb2-7fc2af6f5492/apply
+  - generic [ref=e126]:
+    - paragraph [ref=e127]:
+      - link "SafetyCulture Home Page" [ref=e128] [cursor=pointer]:
+        - /url: https://safetyculture.com
+    - link "Jobs powered by Lever logo" [ref=e129] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=e130]: Jobs powered by
+      - img "Lever logo" [ref=e131]

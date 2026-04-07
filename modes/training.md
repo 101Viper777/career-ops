@@ -1,27 +1,30 @@
-# Modo: training — Evaluación de Formación
+# Mode: training - Course and Certification Evaluation
 
-Para cada curso/cert que el candidato pregunte, evaluar 6 dimensiones:
+For each course/certification, evaluate 6 dimensions:
 
-| Dimensión | Qué evalúa |
-|-----------|------------|
-| Alineación North Star | ¿Acerca o aleja del objetivo? |
-| Señal recruiter | ¿Qué piensan HMs al ver esto en un CV? |
-| Tiempo y esfuerzo | Semanas × horas/semana |
-| Coste de oportunidad | ¿Qué no puede hacer durante ese tiempo? |
-| Riesgos | ¿Contenido outdated? ¿Brand débil? ¿Demasiado básico? |
-| Entregable portfolio | ¿Produce un artefacto demostrable? |
 
-## Veredictos
+| Dimension            | What it checks                                     |
+| -------------------- | -------------------------------------------------- |
+| North Star alignment | Does it move the candidate closer to target roles? |
+| Recruiter signal     | How hiring managers will read it on a CV           |
+| Time and effort      | Weeks multiplied by hours per week                 |
+| Opportunity cost     | What the candidate cannot do during that time      |
+| Risks                | Outdated content, weak brand, too basic            |
+| Portfolio output     | Whether it produces a demonstrable artefact        |
 
-- **HACER** → plan de 4-12 semanas con entregables semanales y scoreboard
-- **NO HACER** → alternativa mejor con justificación
-- **HACER CON TIMEBOX** (máx X semanas) → plan condensado, solo lo esencial
 
-## Prioridad
+## Verdict types
 
-Formación que mejore credibilidad en "production-grade AI":
-1. Evals y testing de LLMs
-2. Observability y monitoring
-3. Cost/reliability trade-offs
-4. AI governance y safety
+- **DO**: provide a 4-12 week plan with weekly outputs
+- **DO NOT DO**: provide a better alternative with clear reasoning
+- **DO WITH TIMEBOX** (max X weeks): compact plan focused on essentials
+
+## Priority focus
+
+Training that improves credibility in production-grade AI:
+
+1. LLM evals and testing
+2. Observability and monitoring
+3. Cost and reliability trade-offs
+4. AI governance and safety
 5. Enterprise AI architecture

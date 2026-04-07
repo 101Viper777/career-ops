@@ -1,0 +1,132 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link "Relevance AI" [ref=e6] [cursor=pointer]:
+        - /url: https://relevanceai.com/
+        - img "Relevance AI" [ref=e7]
+    - listitem [ref=e8]:
+      - link "Back to Relevance AI’s Job Listings" [ref=e9] [cursor=pointer]:
+        - /url: /relevanceai
+        - img [ref=e10]
+    - listitem
+  - generic [ref=e12]:
+    - heading "Forward Deployed Engineer - Travel Required" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e18]
+          - paragraph [ref=e19]: Sydney, Australia
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Full time
+        - generic [ref=e23]:
+          - heading "Location Type" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Hybrid
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e27]
+          - paragraph [ref=e28]:
+            - generic [ref=e29]: S&M ›
+            - generic [ref=e30]: Customer ›
+            - generic [ref=e31]: Solutions Engineering
+      - generic [ref=e32]:
+        - tablist [ref=e33]:
+          - tab "Overview" [ref=e34] [cursor=pointer]
+          - tab "Application" [selected] [ref=e35] [cursor=pointer]
+        - tabpanel "Application" [ref=e37]:
+          - generic [ref=e144]:
+            - generic [ref=e145] [cursor=pointer]:
+              - img [ref=e146]
+              - generic [ref=e148]: This job has application limits
+              - img [ref=e149]
+            - generic [ref=e152]:
+              - paragraph [ref=e153]:
+                - text: "Please Note: we have set up limits for applications for this role. It is in the"
+                - strong [ref=e154]: General Application Limit
+                - text: "group. The following limits apply to applications for all jobs within this group:"
+              - list [ref=e155]:
+                - listitem [ref=e156]:
+                  - paragraph [ref=e157]: Candidates may not re-apply to the same role within 60 days.
+                - listitem [ref=e158]:
+                  - paragraph [ref=e159]: Candidates may not apply to more than 3 different roles within 30 days.
+              - paragraph [ref=e160]: We encourage candidates to be as thoughtful as possible when choosing which role(s) to apply to.
+          - generic [ref=e161]:
+            - button "Choose File" [ref=e162]
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - img [ref=e167]
+                - heading "Autofill from resume" [level=3] [ref=e169]
+              - paragraph [ref=e170]: Upload your resume here to autofill key application fields.
+              - button "Upload file" [ref=e172] [cursor=pointer]
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: Name*
+              - textbox "Name*" [ref=e178] [cursor=pointer]:
+                - /placeholder: Type here...
+                - text: Abdulaziz EL Sabbagh
+            - generic [ref=e179]:
+              - generic [ref=e180]: Email*
+              - textbox "Email*" [ref=e182] [cursor=pointer]:
+                - /placeholder: hello@example.com...
+                - text: abdulaziz.elsabbagh7.9@gmail.com
+            - generic [ref=e183]:
+              - generic [ref=e184]: Phone Number*
+              - textbox "Phone Number*" [ref=e185] [cursor=pointer]:
+                - /placeholder: 1-415-555-1234...
+                - text: 0421 709 904
+            - generic [ref=e186]:
+              - generic [ref=e187]: Resume*
+              - button "Resume*" [ref=e188]
+              - generic [ref=e189]:
+                - button "Upload File" [active] [ref=e190] [cursor=pointer]:
+                  - img [ref=e191]
+                  - generic [ref=e193]: Upload File
+                - paragraph [ref=e194]: or drag and drop here
+            - generic [ref=e195]:
+              - generic [ref=e196]: Where are you currently based?*
+              - paragraph [ref=e198]: Your primary location of work
+              - generic [ref=e199]:
+                - combobox "Start typing..." [ref=e200] [cursor=pointer]
+                - button [ref=e201] [cursor=pointer]:
+                  - img [ref=e202]
+            - generic [ref=e204]:
+              - generic [ref=e205]: Can you work onsite at our Sydney office 3 days a week?*
+              - paragraph [ref=e207]: Our office is located at 944 Market St. This position requires onsite attendance
+              - generic [ref=e208]:
+                - button "Yes" [ref=e209] [cursor=pointer]
+                - button "No" [ref=e210] [cursor=pointer]
+            - generic [ref=e211]:
+              - generic [ref=e212]: Will you now or in the future require sponsorship to work in the location this job is posted?*
+              - paragraph [ref=e214]
+              - generic [ref=e215]:
+                - button "Yes" [ref=e216] [cursor=pointer]
+                - button "No" [ref=e217] [cursor=pointer]
+            - generic [ref=e218]:
+              - generic [ref=e219]: If you were referred to this role, please enter the name of the employee
+              - paragraph [ref=e221]: Optional - referrals by employees of Relevance AI only
+              - textbox "If you were referred to this role, please enter the name of the employee" [ref=e223] [cursor=pointer]:
+                - /placeholder: Type here...
+            - generic [ref=e224]:
+              - generic [ref=e225]: This role involves traveling to customer sites for 3 months at a time, are you comfortable with that?*
+              - textbox "This role involves traveling to customer sites for 3 months at a time, are you comfortable with that?*" [ref=e227] [cursor=pointer]:
+                - /placeholder: Type here...
+                - text: Yes. I am comfortable with extended customer-site travel and can plan around 3-month deployment windows as required.
+            - generic [ref=e228]:
+              - generic [ref=e229]: This role involves being customer facing, have you worked with external customers in the past?*
+              - textbox "This role involves being customer facing, have you worked with external customers in the past?*" [ref=e231] [cursor=pointer]:
+                - /placeholder: Type here...
+                - text: Yes. I have worked directly with external stakeholders in startup and ambassador roles, including translating business needs into technical delivery and ongoing support.
+          - button "Submit Application" [ref=e232] [cursor=pointer]:
+            - text: Submit Application
+            - img [ref=e233]
+  - contentinfo [ref=e130]:
+    - link "Learn more about Ashby" [ref=e131] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e132]: Powered by
+      - img "Ashby" [ref=e133]
+    - paragraph [ref=e139]:
+      - link "Privacy Policy" [ref=e140] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e141] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e142] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

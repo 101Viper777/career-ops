@@ -1,0 +1,204 @@
+- generic [ref=e1]:
+  - dialog "Cookie Consent Banner" [ref=e2]:
+    - button "Close this dialog" [active] [ref=e3] [cursor=pointer]:
+      - img "Close this dialog" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: This website utilises technologies such as cookies to enable essential site functionality, as well as for analytics, personalisation, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies.
+      - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+        - /url: https://www.wisetechglobal.com/legal/
+      - paragraph [ref=e8]:
+        - link "Storage Preferences" [ref=e9] [cursor=pointer]:
+          - /url: "#dd3f99cc-4821-46e0-a0d9-29836b5a457f"
+      - group "Storage Preferences" [ref=e10]:
+        - list "Storage Preferences" [ref=e11]:
+          - listitem [ref=e12]:
+            - generic [ref=e13]:
+              - switch "Targeted Advertising" [ref=e14]
+              - generic [ref=e16]: Targeted Advertising
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - switch "Personalisation" [ref=e19]
+              - generic [ref=e21]: Personalisation
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - switch "Analytics" [ref=e24]
+              - generic [ref=e26]: Analytics
+    - generic [ref=e27]:
+      - button "Save" [ref=e28] [cursor=pointer]
+      - button "Accept All" [ref=e29] [cursor=pointer]
+      - button "Reject Non-Essential" [ref=e30] [cursor=pointer]
+  - paragraph [ref=e33]:
+    - text: Visit our
+    - link "CargoWise website" [ref=e34] [cursor=pointer]:
+      - /url: http://www.cargowise.com/
+  - banner [ref=e35]:
+    - navigation [ref=e36]:
+      - generic [ref=e37]:
+        - link "WiseTech Global" [ref=e38] [cursor=pointer]:
+          - /url: /
+          - img "WiseTech Global" [ref=e39]
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - link "Who we are " [ref=e43]:
+              - /url: "#"
+          - listitem [ref=e44]:
+            - link "What we do " [ref=e45]:
+              - /url: "#"
+          - listitem [ref=e46]:
+            - link "Careers " [ref=e47]:
+              - /url: "#"
+          - listitem [ref=e48]:
+            - link "Investors " [ref=e49]:
+              - /url: "#"
+          - listitem [ref=e50]:
+            - link "News" [ref=e51] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e52]:
+            - link "Legal " [ref=e53]:
+              - /url: "#"
+          - listitem [ref=e54]:
+            - link "Contact" [ref=e55] [cursor=pointer]:
+              - /url: /contact/
+          - listitem [ref=e56]:
+            - link "My Account" [ref=e57] [cursor=pointer]:
+              - /url: https://myaccount.cargowise.com/
+          - listitem [ref=e58]:
+            - textbox "Search..."
+            - link "" [ref=e59] [cursor=pointer]:
+              - /url: /search/
+          - listitem [ref=e60]:
+            - link "en " [ref=e61]:
+              - /url: "#"
+  - generic [ref=e62]:
+    - banner [ref=e63]:
+      - generic [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "WiseTech Global" [ref=e70] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e71]:
+            - text: ">"
+            - link "Careers" [ref=e72] [cursor=pointer]:
+              - /url: /careers/
+          - listitem [ref=e73]:
+            - text: ">"
+            - heading "From software developers to financial accountants – jobs at WiseTech Global" [level=1] [ref=e74]
+        - heading "Do you have bold ideas and a passion to build bold products?" [level=3] [ref=e75]
+        - paragraph [ref=e76]:
+          - text: If you don’t see an open role that connects with you or your experience and you’re still curious about what you could achieve at WiseTech, reach out to our Talent Team at
+          - link "talent@wisetechglobal.com" [ref=e77] [cursor=pointer]:
+            - /url: mailto:talent@wisetechglobal.com
+          - text: .
+    - article [ref=e78]:
+      - link "Recruitment scams " [expanded] [ref=e87] [cursor=pointer]:
+        - /url: "#accordion-74cd7a1e-fc4b-4908-a97a-ef182c72194e-collapse-0"
+      - heading "Sorry, there are no current openings available right now." [level=5] [ref=e92]
+      - generic [ref=e97]:
+        - heading "Who we are" [level=4] [ref=e98]
+        - paragraph [ref=e99]: We are a global team of passionate people enabling and empowering the supply chains of the world.
+        - paragraph [ref=e100]
+        - paragraph [ref=e101]:
+          - link "Learn more" [ref=e102] [cursor=pointer]:
+            - /url: /who-we-are/about-us/
+    - contentinfo [ref=e105]:
+      - generic [ref=e108]:
+        - paragraph [ref=e111]
+        - list [ref=e114]:
+          - listitem [ref=e115]:
+            - heading "Who we are" [level=6] [ref=e116]
+          - listitem [ref=e117]:
+            - link "About us" [ref=e118] [cursor=pointer]:
+              - /url: /who-we-are/about-us/
+          - listitem [ref=e119]:
+            - link "Our commitments" [ref=e120] [cursor=pointer]:
+              - /url: /who-we-are/sustainability/
+          - listitem [ref=e121]:
+            - link "Our values" [ref=e122] [cursor=pointer]:
+              - /url: /who-we-are/our-credo-and-mantras/
+          - listitem [ref=e123]:
+            - link "Our history" [ref=e124] [cursor=pointer]:
+              - /url: /who-we-are/our-history/
+          - listitem [ref=e125]:
+            - link "Our products" [ref=e126] [cursor=pointer]:
+              - /url: http://www.cargowise.com/
+          - listitem [ref=e127]:
+            - link "Our businesses" [ref=e128] [cursor=pointer]:
+              - /url: /what-we-do/our-businesses/
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - heading "Resources" [level=6] [ref=e133]
+          - listitem [ref=e134]:
+            - link "Careers" [ref=e135] [cursor=pointer]:
+              - /url: /careers/
+          - listitem [ref=e136]:
+            - link "Newsroom" [ref=e137] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e138]:
+            - link "Investor center" [ref=e139] [cursor=pointer]:
+              - /url: /investors/welcome/
+          - listitem [ref=e140]:
+            - link "WiseTech Academy" [ref=e141] [cursor=pointer]:
+              - /url: https://wisetechacademy.com/
+          - listitem [ref=e142]:
+            - link "Privacy help center" [ref=e143] [cursor=pointer]:
+              - /url: /legal/privacy-help-center/
+          - listitem [ref=e144]:
+            - link "Contact" [ref=e145] [cursor=pointer]:
+              - /url: /contact/
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - heading "CargoWise" [level=6] [ref=e150]:
+              - link "CargoWise" [ref=e151] [cursor=pointer]:
+                - /url: http://www.cargowise.com/
+          - listitem [ref=e152]:
+            - link "Solutions" [ref=e153] [cursor=pointer]:
+              - /url: http://www.cargowise.com/cargowise-mega-features/
+          - listitem [ref=e154]:
+            - link "Partners" [ref=e155] [cursor=pointer]:
+              - /url: http://www.cargowise.com/partners/find-a-partner/
+          - listitem [ref=e156]:
+            - link "Support" [ref=e157] [cursor=pointer]:
+              - /url: http://www.cargowise.com/support/
+        - paragraph [ref=e160]:
+          - link "My Account" [ref=e161] [cursor=pointer]:
+            - /url: https://myaccount.cargowise.com/
+      - generic [ref=e164]:
+        - list [ref=e167]:
+          - listitem [ref=e168]: © 2026 WiseTech Global
+          - listitem [ref=e169]:
+            - link "Sitemap" [ref=e170] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e171]:
+            - link "Terms of Use" [ref=e172] [cursor=pointer]:
+              - /url: /legal/#termsofuse
+            - link "Cookie Settings":
+              - /url: "#cookie-settings"
+          - listitem [ref=e173]:
+            - link "Privacy and Data Protection Notice" [ref=e174] [cursor=pointer]:
+              - /url: /legal/#privacypolicy
+          - listitem [ref=e175]:
+            - link "Cookie Settings" [ref=e176] [cursor=pointer]:
+              - /url: "#cookie-settings"
+        - list [ref=e179]:
+          - listitem [ref=e180]:
+            - link "" [ref=e181] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/13728?trk=tyah
+              - emphasis [ref=e182]: 
+          - listitem [ref=e183]:
+            - link "" [ref=e184] [cursor=pointer]:
+              - /url: https://www.facebook.com/WiseTechGlobal
+              - emphasis [ref=e185]: 
+          - listitem [ref=e186]:
+            - link "" [ref=e187] [cursor=pointer]:
+              - /url: https://twitter.com/WiseTechGlobal
+              - emphasis [ref=e188]: 
+          - listitem [ref=e189]:
+            - link "" [ref=e190] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCv78Idk92_k0VdFi7oZueyw
+              - emphasis [ref=e191]: 
+        - paragraph [ref=e194]:
+          - link "Back to top" [ref=e195] [cursor=pointer]:
+            - /url: "#"
+    - generic:
+      - img [ref=e197]
+      - img [ref=e201]

@@ -1,0 +1,328 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 🍪
+      - button "Dismiss" [ref=e7] [cursor=pointer]
+      - heading "Privacy Notice" [level=4] [ref=e8]
+      - paragraph [ref=e9]: This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies.
+  - link "SafetyCulture logo" [ref=e12] [cursor=pointer]:
+    - /url: https://jobs.lever.co/safetyculture-2
+    - img "SafetyCulture logo" [ref=e13]
+  - generic [ref=e15]:
+    - generic [ref=e17]:
+      - heading "AI Solutions Engineer" [level=2] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]: Sydney
+        - generic [ref=e21]: Operations – Business Operations /
+        - generic [ref=e22]: Full-time Permanent /
+        - generic [ref=e23]: Hybrid
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "Submit your application" [level=4] [ref=e27]
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - generic [ref=e30]: LinkedIn profile
+            - generic [ref=e32]:
+              - button "Loading..." [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]:
+                  - img [ref=e35]
+                  - generic [ref=e38]: Loading...
+              - paragraph [ref=e39]:
+                - text: Your full LinkedIn profile will be
+                - text: shared.
+                - link "Learn more" [ref=e40] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/help/linkedin/answer/a507542/
+          - listitem [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - text: Resume/CV
+                - generic [ref=e44]: ✱
+              - link "ATTACH RESUME/CV Resume/CV ✱" [ref=e46] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e47]
+                - generic [ref=e49]: ATTACH RESUME/CV
+                - button "Resume/CV ✱ ATTACH RESUME/CV" [ref=e50]
+          - listitem [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - text: Full name
+                - generic [ref=e54]: ✱
+              - textbox "Full name ✱" [ref=e56]
+          - listitem [ref=e57]:
+            - generic [ref=e58]: Pronouns
+            - list [ref=e60]:
+              - generic [ref=e61]:
+                - generic [ref=e62]:
+                  - listitem [ref=e63]:
+                    - generic [ref=e64] [cursor=pointer]:
+                      - checkbox "He/him" [ref=e65]
+                      - generic [ref=e66]: He/him
+                  - listitem [ref=e67]:
+                    - generic [ref=e68] [cursor=pointer]:
+                      - checkbox "She/her" [ref=e69]
+                      - generic [ref=e70]: She/her
+                  - listitem [ref=e71]:
+                    - generic [ref=e72] [cursor=pointer]:
+                      - checkbox "They/them" [ref=e73]
+                      - generic [ref=e74]: They/them
+                - generic [ref=e75]:
+                  - listitem [ref=e76]:
+                    - generic [ref=e77] [cursor=pointer]:
+                      - checkbox "Xe/xem" [ref=e78]
+                      - generic [ref=e79]: Xe/xem
+                  - listitem [ref=e80]:
+                    - generic [ref=e81] [cursor=pointer]:
+                      - checkbox "Ze/hir" [ref=e82]
+                      - generic [ref=e83]: Ze/hir
+                  - listitem [ref=e84]:
+                    - generic [ref=e85] [cursor=pointer]:
+                      - checkbox "Ey/em" [ref=e86]
+                      - generic [ref=e87]: Ey/em
+                - generic [ref=e88]:
+                  - listitem [ref=e89]:
+                    - generic [ref=e90] [cursor=pointer]:
+                      - checkbox "Hir/hir" [ref=e91]
+                      - generic [ref=e92]: Hir/hir
+                  - listitem [ref=e93]:
+                    - generic [ref=e94] [cursor=pointer]:
+                      - checkbox "Fae/faer" [ref=e95]
+                      - generic [ref=e96]: Fae/faer
+                  - listitem [ref=e97]:
+                    - generic [ref=e98] [cursor=pointer]:
+                      - checkbox "Hu/hu" [ref=e99]
+                      - generic [ref=e100]: Hu/hu
+              - separator [ref=e101]
+              - listitem [ref=e102]:
+                - generic [ref=e103] [cursor=pointer]:
+                  - checkbox "Use name only" [ref=e104]
+                  - generic [ref=e105]: Use name only
+              - separator [ref=e106]
+              - listitem [ref=e107]:
+                - generic [ref=e108] [cursor=pointer]:
+                  - checkbox "Custom" [ref=e109]
+                  - generic [ref=e110]: Custom
+              - paragraph [ref=e111]: Let the employer know what pronouns you use so that they can address you correctly.
+          - listitem [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - text: Email
+                - generic [ref=e115]: ✱
+              - textbox "Email ✱" [ref=e117]
+          - listitem [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - text: Phone
+                - generic [ref=e121]: ✱
+              - textbox "Phone ✱" [ref=e123]
+          - listitem [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - text: Current location
+                - generic [ref=e127]: ✱
+              - textbox "Current location ✱" [ref=e129]
+          - listitem [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: Current company
+              - textbox "Current company" [ref=e134]
+      - generic [ref=e135]:
+        - heading "Links" [level=4] [ref=e136]
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: LinkedIn URL
+              - textbox "LinkedIn URL" [ref=e142]
+          - listitem [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: Twitter URL
+              - textbox "Twitter URL" [ref=e147]
+          - listitem [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]: GitHub URL
+              - textbox "GitHub URL" [ref=e152]
+          - listitem [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: Portfolio URL
+              - textbox "Portfolio URL" [ref=e157]
+          - listitem [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: Other website
+              - textbox "Other website" [ref=e162]
+      - generic [ref=e163]:
+        - heading "Right to Work - Sydney" [level=4] [ref=e164]
+        - list [ref=e165]:
+          - listitem [ref=e166]:
+            - generic [ref=e167]:
+              - generic [ref=e169]:
+                - text: Do you have working rights in this location?
+                - generic [ref=e170]: ✱
+              - combobox [ref=e173]:
+                - option "Select the relevant option" [selected]
+                - option "Yes - I am a citizen or resident"
+                - option "Yes - I have a visa which permits me to work"
+                - option "No - I require visa sponsorship"
+          - listitem [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e177]: If you selected 'Yes - I have a visa which permits me to work', please specify what type of visa.
+              - textbox [ref=e179]
+          - listitem [ref=e180]:
+            - generic [ref=e181]:
+              - generic [ref=e183]: Are you currently based in Sydney? Note, our roles are hybrid and require employees to be locally based.
+              - list [ref=e185]:
+                - listitem [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - radio "Yes" [ref=e188]
+                    - generic [ref=e189]: "Yes"
+                - listitem [ref=e190]:
+                  - generic [ref=e191] [cursor=pointer]:
+                    - radio "No, but I am looking to relocate" [ref=e192]
+                    - generic [ref=e193]: No, but I am looking to relocate
+                - listitem [ref=e194]:
+                  - generic [ref=e195] [cursor=pointer]:
+                    - radio "No, and I am not looking to relocate" [ref=e196]
+                    - generic [ref=e197]: No, and I am not looking to relocate
+      - generic [ref=e198]:
+        - heading "Adjustments" [level=4] [ref=e199]
+        - list [ref=e200]:
+          - listitem [ref=e201]:
+            - generic [ref=e202]:
+              - generic [ref=e204]: Do you require any reasonable adjustments to be made to support you through any part of the recruitment process?
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - generic [ref=e208] [cursor=pointer]:
+                    - radio "Yes" [ref=e209]
+                    - generic [ref=e210]: "Yes"
+                - listitem [ref=e211]:
+                  - generic [ref=e212] [cursor=pointer]:
+                    - radio "No" [ref=e213]
+                    - generic [ref=e214]: "No"
+                - listitem [ref=e215]:
+                  - generic [ref=e216] [cursor=pointer]:
+                    - radio "Unsure" [ref=e217]
+                    - generic [ref=e218]: Unsure
+          - listitem [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e222]: Please specify what adjustment(s) you require
+              - textbox [ref=e224]
+      - generic [ref=e225]:
+        - heading "Additional information" [level=4] [ref=e227]
+        - textbox "Additional information" [ref=e229]:
+          - /placeholder: Add a cover letter or anything else you want to share.
+      - generic [ref=e230]:
+        - separator [ref=e231]
+        - heading "Demographic Survey for SafetyCulture" [level=4] [ref=e232]
+        - paragraph [ref=e233]: We invite you to complete this optional survey to help us evaluate our diversity and inclusion efforts. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment or affect your job application. Information obtained will be kept separate from your name or job application. This information will be kept secure and confidential and will be used solely to evaluate our diversity and inclusion efforts.
+        - list [ref=e234]:
+          - listitem [ref=e235]:
+            - generic [ref=e237]: What is your age range?
+            - list [ref=e239]:
+              - listitem [ref=e240]:
+                - generic [ref=e241] [cursor=pointer]:
+                  - radio "17 or younger" [ref=e242]
+                  - generic [ref=e243]: 17 or younger
+              - listitem [ref=e244]:
+                - generic [ref=e245] [cursor=pointer]:
+                  - radio "18-20" [ref=e246]
+                  - generic [ref=e247]: 18-20
+              - listitem [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]:
+                  - radio "21-29" [ref=e250]
+                  - generic [ref=e251]: 21-29
+              - listitem [ref=e252]:
+                - generic [ref=e253] [cursor=pointer]:
+                  - radio "30-39" [ref=e254]
+                  - generic [ref=e255]: 30-39
+              - listitem [ref=e256]:
+                - generic [ref=e257] [cursor=pointer]:
+                  - radio "40-49" [ref=e258]
+                  - generic [ref=e259]: 40-49
+              - listitem [ref=e260]:
+                - generic [ref=e261] [cursor=pointer]:
+                  - radio "50-59" [ref=e262]
+                  - generic [ref=e263]: 50-59
+              - listitem [ref=e264]:
+                - generic [ref=e265] [cursor=pointer]:
+                  - radio "60 or older" [ref=e266]
+                  - generic [ref=e267]: 60 or older
+          - listitem [ref=e268]:
+            - generic [ref=e269]:
+              - generic [ref=e270]: I identify my ethnicity as
+              - paragraph [ref=e271]: Select all that apply
+            - list [ref=e273]:
+              - listitem [ref=e274]:
+                - generic [ref=e275] [cursor=pointer]:
+                  - checkbox "White / Caucasian" [ref=e276]
+                  - generic [ref=e277]: White / Caucasian
+              - listitem [ref=e278]:
+                - generic [ref=e279] [cursor=pointer]:
+                  - checkbox "Hispanic, Latino, or Spanish origin" [ref=e280]
+                  - generic [ref=e281]: Hispanic, Latino, or Spanish origin
+              - listitem [ref=e282]:
+                - generic [ref=e283] [cursor=pointer]:
+                  - checkbox "Black or African American" [ref=e284]
+                  - generic [ref=e285]: Black or African American
+              - listitem [ref=e286]:
+                - generic [ref=e287] [cursor=pointer]:
+                  - checkbox "Asian" [ref=e288]
+                  - generic [ref=e289]: Asian
+              - listitem [ref=e290]:
+                - generic [ref=e291] [cursor=pointer]:
+                  - checkbox "Native Hawaiian or other Pacific Islander" [ref=e292]
+                  - generic [ref=e293]: Native Hawaiian or other Pacific Islander
+              - listitem [ref=e294]:
+                - generic [ref=e295] [cursor=pointer]:
+                  - checkbox "Indigenous Peoples, First Nations, Native American, or Alaska Native" [ref=e296]
+                  - generic [ref=e297]: Indigenous Peoples, First Nations, Native American, or Alaska Native
+              - listitem [ref=e298]:
+                - generic [ref=e299] [cursor=pointer]:
+                  - checkbox "Middle Eastern or North African" [ref=e300]
+                  - generic [ref=e301]: Middle Eastern or North African
+              - listitem [ref=e302]:
+                - generic [ref=e303] [cursor=pointer]:
+                  - checkbox "Other race, ethnicity, or origin" [ref=e304]
+                  - generic [ref=e305]: Other race, ethnicity, or origin
+          - listitem [ref=e306]:
+            - generic [ref=e308]: Which of the following most accurately describes(s) you?
+            - list [ref=e310]:
+              - listitem [ref=e311]:
+                - generic [ref=e312] [cursor=pointer]:
+                  - radio "Female" [ref=e313]
+                  - generic [ref=e314]: Female
+              - listitem [ref=e315]:
+                - generic [ref=e316] [cursor=pointer]:
+                  - radio "Male" [ref=e317]
+                  - generic [ref=e318]: Male
+              - listitem [ref=e319]:
+                - generic [ref=e320] [cursor=pointer]:
+                  - radio "Non-binary" [ref=e321]
+                  - generic [ref=e322]: Non-binary
+              - listitem [ref=e323]:
+                - generic [ref=e324] [cursor=pointer]:
+                  - radio "Transgender" [ref=e325]
+                  - generic [ref=e326]: Transgender
+              - listitem [ref=e327]:
+                - generic [ref=e328] [cursor=pointer]:
+                  - radio "Intersex" [ref=e329]
+                  - generic [ref=e330]: Intersex
+              - listitem [ref=e331]:
+                - generic [ref=e332] [cursor=pointer]:
+                  - radio "I prefer not to say" [ref=e333]
+                  - generic [ref=e334]: I prefer not to say
+      - generic [ref=e335]:
+        - separator [ref=e336]
+        - list [ref=e337]:
+          - listitem [ref=e338]:
+            - paragraph [ref=e339]:
+              - text: By applying for this position, your data will be processed as per SafetyCulture
+              - link "Privacy Policy" [ref=e341] [cursor=pointer]:
+                - /url: https://drive.google.com/file/d/1r7psPQf7I0zkPJFgCwuWs2o5BS3FTTbr/view?usp=sharing
+              - text: .
+      - button "Submit application" [ref=e343] [cursor=pointer]
+  - generic [ref=e345]:
+    - paragraph [ref=e346]:
+      - link "SafetyCulture Home Page" [ref=e347] [cursor=pointer]:
+        - /url: https://safetyculture.com
+    - paragraph [ref=e349]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+    - link "Jobs powered by Lever logo" [ref=e350] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=e351]: Jobs powered by
+      - img "Lever logo" [ref=e352]

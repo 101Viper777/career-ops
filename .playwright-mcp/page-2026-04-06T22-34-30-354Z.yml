@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - link "Immutable logo" [ref=e4] [cursor=pointer]:
+    - /url: https://jobs.lever.co/immutable
+    - img "Immutable logo" [ref=e5]
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - heading "Associate GTM Operations Engineer" [level=2] [ref=e11]
+        - generic [ref=e12]:
+          - generic [ref=e13]: Sydney
+          - generic [ref=e14]: Go to Market – GTM | Operations /
+          - generic [ref=e15]: Full Time Permanent /
+          - generic [ref=e16]: Hybrid
+      - link "apply for this job" [ref=e18] [cursor=pointer]:
+        - /url: https://jobs.lever.co/immutable/5466a125-380a-475b-8e48-eb7076909cdf/apply
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: About Us 🚀
+        - generic [ref=e23]: Immutable is the world’s fastest-growing game platform, built to power the next generation of games. We aim to drive the next evolution of gaming, combining performance, digital ownership and cutting-edge technology to help games grow and succeed. At the intersection of AI-driven analytics, high-performance growth tools, and seamless digital ownership, our technology helps studios attract, engage, and scale player communities across both Web2 and Web3.
+        - generic [ref=e25]: Founded in 2018, Immutable is one of Australia’s fastest companies to reach unicorn status, raising more than AUD $400M+ with a valuation of AUD $3.5B. Today, more than 700 games are building on Immutable, and industry leaders like Ubisoft have chosen us as their partner for the future of gaming.
+        - generic [ref=e27]: "Over 6 million players use Immutable Passport, our unified identity enabling frictionless cross-game experiences, and our Immutable Audience platform has become the fastest-growing SaaS product line in our history. We're scaling rapidly, backed by a global team of creators, engineers, and gamers united by one mission: to build the most valuable growth layer in gaming and redefine how games launch, scale, and succeed. 🚀"
+        - generic [ref=e29]: "About The Role 🤔:"
+        - generic [ref=e31]: Immutable is building the future of player onboarding, discovery, and engagement. Our mission is to help more games launch successfully using next-generation growth and automation tools.
+        - generic [ref=e33]: As an Associate GTM Operations Engineer, you’ll sit at the intersection of Applied AI, Automation Engineering, Support Operations, and Commercial Strategy. You’ll help scale our automation-led support engine, streamline GTM workflows, and build tools that empower our Commercial, Growth, and BD teams.
+        - generic [ref=e35]: This is a high-impact, hands-on role where you’ll diagnose issues, optimise processes, build automations, and work closely with Product and Engineering teams to improve our customer and internal user experience.
+      - generic [ref=e37]:
+        - heading "You'll Be Empowered To 🎮" [level=3] [ref=e38]
+        - list [ref=e41]:
+          - listitem [ref=e42]: "Supercharge the Commercial Engine: Architect, optimize, and execute the critical processes, tools, and data workflows that form the backbone of our commercial team."
+          - listitem [ref=e43]: "Scale Intelligent Support: Take ownership of our customer support function, driving initiatives that allow us to scale efficiently while maintaining a world-class user experience."
+          - listitem [ref=e44]: "Accelerate GTM Strategy: You will play a pivotal role in the Go-to-Market strategy for Immutable Audience, designing and deploying automation initiatives that widen our reach and impact."
+          - listitem [ref=e45]: "Unlock Insights Through Data: Conduct ad-hoc analysis and provide insights that inform GTM strategy, customer onboarding, and support efficiency."
+      - generic [ref=e47]:
+        - heading "We'd Love You To Bring 🤝" [level=3] [ref=e48]
+        - list [ref=e51]:
+          - listitem [ref=e52]: Strong troubleshooting skills with the ability to distinguish symptoms from root causes.
+          - listitem [ref=e53]: Experience working in technical support, RevOps, operations engineering, or workflow automation.
+          - listitem [ref=e54]: Ability to communicate complex technical details clearly to both technical and non-technical audiences.
+          - listitem [ref=e55]: Comfortable working with data (SQL, dashboards, analysis) to support decision-making.
+          - listitem [ref=e56]: Curiosity, proactivity, and a strong bias toward learning new systems and solving problems at scale.
+          - listitem [ref=e57]: Strong knowledge of growth marketing, sales, business development, go-to-market, RevOps, support operations, or startup environments.
+      - generic [ref=e59]:
+        - heading "Bonus Points For ✅" [level=3] [ref=e60]
+        - list [ref=e63]:
+          - listitem [ref=e64]: Experience using or integrating AI tools (LLMs, agents, prompt engineering, automation tools like Make/Zapier/N8N/RelevanceAI).
+          - listitem [ref=e65]: Experience building support workflows or automations in tools like DevRev, Intercom, Zendesk, Glean, or similar.
+      - generic [ref=e68]:
+        - heading "Why This Role Is Exciting 🚀" [level=3] [ref=e69]
+        - list [ref=e72]:
+          - listitem [ref=e73]: You’ll gain deep experience across AI systems, GTM tooling, commercial strategy, and support automation.
+          - listitem [ref=e74]: You’ll work closely with talented Engineering, Product, Growth, and Customer teams in a fast-paced, high-ownership environment.
+          - listitem [ref=e75]: You’ll directly shape how Immutable supports both players and studios at scale.
+          - listitem [ref=e76]: Your work will have immediate visibility and measurable impact (revenue, workflow efficiency, support quality).
+      - generic [ref=e77]:
+        - generic [ref=e78]: "*Due to the holiday period, we will not be screening incoming applications before January 5th - we will contact candidates after that date. Thanks for understanding and happy holidays!"
+        - generic [ref=e81]: We are proud of the benefits that we offer for all of our employees globally.
+        - generic [ref=e84]: Here is a snapshot 😊
+        - generic [ref=e86]: Attracting the best global talent
+        - generic [ref=e87]: 💸 We commit to paying globally competitive base salaries and contributions to a long-term fund
+        - generic [ref=e88]: 📊 Sharing our products' success through Employee Stock Options ESOP
+        - generic [ref=e89]: "🌟 Our flexible working model blends the best of both worlds: Sydney-based employees enjoy hybrid 3 days a week in our vibrant head office, while remote team members can work from home or utilise access to global office hubs via a WeWork All-Access pass"
+        - generic [ref=e90]: 🥘 Lunch is ordered fresh every day in our friendly office in Sydney CBD
+        - generic [ref=e91]: 🎉 Quarterly End of Cycle Celebration Awards and Dinner
+        - generic [ref=e92]: 💻 USD $500 WFH allowance to set up your home office
+        - generic [ref=e93]: ☎️ USD $600 per annum to put toward your internet and phone usage.
+        - generic [ref=e94]: 🥳 USD $75 per quarter for remote employees to celebrate with local team members
+        - generic [ref=e95]: ⛑️ We also support our US Employees with Medical and 401K Insurance
+        - generic [ref=e96]: 🚘 Our Australian Employees can avail of Novated Leasing, save money by paying for your car using pre & post-tax dollars
+        - generic [ref=e98]: Levelling up your growth
+        - generic [ref=e99]: 🌱 We offer up to USD $1,350 per annum for any classes, courses or events to support your growth and development
+        - generic [ref=e100]: 📚 Enjoy access to free online courses via Udemy
+        - generic [ref=e102]: Helping you thrive
+        - generic [ref=e103]: 💆🏽‍♀️ Enjoy USD $800 per year to put toward your health and wellbeing
+        - generic [ref=e104]: 🤗 Get 24/7 access to unlimited counselling for you and your family when you need it through our EAP Service
+        - generic [ref=e105]: 🎁 Monthly subsidy and discounted rate with ClassPass, including a 1-year free membership to Breethe
+        - generic [ref=e107]: "Leave when you need it the most:"
+        - generic [ref=e108]: 👨‍👧‍👦 New parents receive 12 weeks of paid leave in our gender-neutral offer. The birthing parent also gets an additional 6 weeks of leave for rest and recovery leading up to and after birth. We also offer Miscarriage Leave and extra leave for IVF treatments
+        - generic [ref=e109]: 🌟 Enjoy 2 additional paid annual leave days at the end of the year
+        - generic [ref=e110]: 🎂 Birthday you get a paid day off
+        - generic [ref=e112]: "Additional Information:"
+        - generic [ref=e113]: Immutable is committed to building and fostering an inclusive, diverse workplace. We believe in incorporating everyone's perspectives and experiences as this has been a significant driver of our success so far.
+        - generic [ref=e115]: We are a 2026 Circle Back Initiative Employer. This means a human reviews every application and we commit to responding to every applicant.
+        - generic [ref=e117]: "*A note to recruitment agencies: Our internal team has this role covered, so there is no need to reach out - We don't accept unsolicited agency resumes and are not responsible for any fees related to unsolicited resumes. Thank you!"
+        - generic [ref=e119]: Join us in shaping the future of gaming!
+      - generic [ref=e121]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+      - link "apply for this job" [ref=e123] [cursor=pointer]:
+        - /url: https://jobs.lever.co/immutable/5466a125-380a-475b-8e48-eb7076909cdf/apply
+  - generic [ref=e125]:
+    - paragraph [ref=e126]:
+      - link "Immutable Home Page" [ref=e127] [cursor=pointer]:
+        - /url: https://immutable.com/
+    - link "Jobs powered by Lever logo" [ref=e128] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=e129]: Jobs powered by
+      - img "Lever logo" [ref=e130]

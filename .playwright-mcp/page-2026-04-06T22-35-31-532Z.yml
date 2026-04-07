@@ -1,0 +1,150 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "Atlassian" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Atlassian" [ref=e7]
+        - generic [ref=e10]:
+          - list [ref=e11]:
+            - listitem
+            - listitem [ref=e12] [cursor=pointer]:
+              - button "Products" [ref=e13]:
+                - text: Products
+                - img [ref=e14]
+            - listitem [ref=e16] [cursor=pointer]:
+              - button "Solutions" [ref=e17]:
+                - text: Solutions
+                - img [ref=e18]
+            - listitem [ref=e20] [cursor=pointer]:
+              - button "Why Atlassian" [ref=e21]:
+                - text: Why Atlassian
+                - img [ref=e22]
+            - listitem [ref=e24] [cursor=pointer]:
+              - button "Resources" [ref=e25]:
+                - text: Resources
+                - img [ref=e26]
+            - listitem [ref=e28] [cursor=pointer]:
+              - link "Enterprise" [ref=e29]:
+                - /url: /enterprise
+            - listitem [ref=e30] [cursor=pointer]
+          - list [ref=e31]:
+            - listitem [ref=e32] [cursor=pointer]:
+              - button "Get it free" [ref=e33]:
+                - text: Get it free
+                - img [ref=e34]
+            - listitem [ref=e36] [cursor=pointer]:
+              - button [ref=e37]:
+                - img [ref=e38]
+            - listitem [ref=e40] [cursor=pointer]:
+              - button "Sign in" [ref=e41]
+            - listitem
+  - main [ref=e42]:
+    - navigation [ref=e43]:
+      - generic [ref=e45]:
+        - link "Company" [ref=e46] [cursor=pointer]:
+          - /url: /company
+          - generic [ref=e47]: Company
+        - list [ref=e51]:
+          - listitem
+          - listitem [ref=e52] [cursor=pointer]:
+            - link "Customers" [ref=e53]:
+              - /url: /customers
+          - listitem [ref=e54] [cursor=pointer]:
+            - button "Careers" [ref=e55]:
+              - text: Careers
+              - img [ref=e56]
+          - listitem [ref=e58] [cursor=pointer]:
+            - link "Investors" [ref=e59]:
+              - /url: https://investors.atlassian.com/investors-overview/
+          - listitem [ref=e60] [cursor=pointer]:
+            - link "Events" [ref=e61]:
+              - /url: /company/events
+          - listitem [ref=e62] [cursor=pointer]:
+            - link "Blog" [ref=e63]:
+              - /url: https://www.atlassian.com/blog
+          - listitem [ref=e64] [cursor=pointer]:
+            - link "Newsroom" [ref=e65]:
+              - /url: https://www.atlassian.com/blog/announcements
+          - listitem [ref=e66] [cursor=pointer]:
+            - link "Press kit" [ref=e67]:
+              - /url: /company/news/press-kit
+          - listitem [ref=e68] [cursor=pointer]:
+            - link "Contact" [ref=e69]:
+              - /url: /company/contact
+          - listitem [ref=e70] [cursor=pointer]
+    - navigation [ref=e71]:
+      - generic [ref=e73]:
+        - link "Careers" [ref=e74] [cursor=pointer]:
+          - /url: /company/careers
+          - generic [ref=e75]: Careers
+        - list [ref=e79]:
+          - listitem
+          - listitem [ref=e80] [cursor=pointer]:
+            - link "Browse Jobs" [ref=e81]:
+              - /url: /company/careers/all-jobs
+          - listitem [ref=e82] [cursor=pointer]:
+            - button "Our Teams" [ref=e83]:
+              - text: Our Teams
+              - img [ref=e84]
+          - listitem [ref=e86] [cursor=pointer]:
+            - link "Early Careers" [ref=e87]:
+              - /url: /company/careers/earlycareers
+          - listitem [ref=e88] [cursor=pointer]:
+            - button "Team Experience" [ref=e89]:
+              - text: Team Experience
+              - img [ref=e90]
+          - listitem [ref=e92] [cursor=pointer]:
+            - button "Candidate Resources" [ref=e93]:
+              - text: Candidate Resources
+              - img [ref=e94]
+          - listitem [ref=e96] [cursor=pointer]
+    - generic [ref=e99]:
+      - heading "Join the Atlassian Talent Community" [level=3] [ref=e100]
+      - paragraph [ref=e101]: Don’t see an exact role match? No problem! Join our Talent Community and stay up-to-date on company and careers updates relevant to your career.
+      - link "Join now" [ref=e102] [cursor=pointer]:
+        - /url: https://join.atlassian.com/atlassian-talent-community/talentcommunity/form
+  - contentinfo [ref=e103]:
+    - generic [ref=e107]:
+      - generic [ref=e109]:
+        - generic "Choose your language"
+        - combobox "Choose your language" [ref=e110] [cursor=pointer]:
+          - option "Choose your language" [disabled]
+          - option "Deutsch"
+          - option "English" [selected]
+          - option "Español"
+          - option "Français"
+          - option "Italiano"
+          - option "한국어"
+          - option "Nederlands"
+          - option "日本語"
+          - option "Polski"
+          - option "Português"
+          - option "русский"
+          - option "中文"
+      - link "Privacy Policy" [ref=e112] [cursor=pointer]:
+        - /url: /legal/careers-privacy-notice
+      - link "Limit the Use of My Sensitive Personal Information" [ref=e114] [cursor=pointer]:
+        - /url: /legal/careers-privacy-notice#additional-disclosures
+      - link "Terms" [ref=e116] [cursor=pointer]:
+        - /url: /legal/atlassian-customer-agreement
+      - link "Impressum" [ref=e119] [cursor=pointer]:
+        - /url: /legal/impressum
+      - paragraph [ref=e121]: Copyright © 2026 Atlassian
+      - list [ref=e124]:
+        - listitem [ref=e125]:
+          - link "Atlassian on Facebook" [ref=e126] [cursor=pointer]:
+            - /url: https://www.facebook.com/Atlassian
+        - listitem [ref=e127]:
+          - link "Follow us on Twitter" [ref=e128] [cursor=pointer]:
+            - /url: https://twitter.com/atlassian
+        - listitem [ref=e129]:
+          - link "Atlassian on LinkedIn" [ref=e130] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/atlassian
+        - listitem [ref=e131]:
+          - link "Atlassian on YouTube" [ref=e132] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/GoAtlassian
+  - iframe [ref=e135]:
+    - generic [ref=f9e6]:
+      - text: protected by
+      - strong [ref=f9e7]: reCAPTCHA

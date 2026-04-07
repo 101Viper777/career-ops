@@ -1,0 +1,32 @@
+[    4281ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4300ms] [WARNING] {msg: An error has occurred checking the feature gate. Only the first occurrence of this error is logged., gateName: platform-dst-shape-theme-default, error: Error: Client must be initialized before using this method
+    at Object.assertInitialized (https:/…} @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4450ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4453ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4460ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 0.0.0-development was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4466ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4478ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4501ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+        The currently bound version is 4.26.5 when module version 4.12.1 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4513ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4516ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4519ms] [WARNING] Multiple versions of FeatureGateClients found on the current page.
+      The currently bound version is 4.26.5 when module version 4.25.0 was loading. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4586ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4627ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.atlassian.com/gateway/api/cookie-integrator/api/onetrust/jwt:0
+[    4629ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4639ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4639ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4640ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[    4956ms] [INFO] Initializing FeatureGates client @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[   15128ms] [LOG] WebConfigClient initialized successfully. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[   15135ms] [LOG] FeatureGateClient initialized successfully. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/f0177f31b7ae22.js:1
+[   16425ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.atlassian.com/company/careers/details/24034?gh_src=Accel+job+board:0
+[   74642ms] [WARNING] Deprecated API for given entry type. @ https://wac-cdn.atlassian.com/static/master/10752/assets/build/js/chunks/348a1b8859b477.js:0

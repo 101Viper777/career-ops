@@ -1,107 +1,117 @@
-# Modo: apply — Asistente de Aplicación en Vivo
+# Mode: apply - Live Application Assistant
 
-Modo interactivo para cuando el candidato está rellenando un formulario de aplicación en Chrome. Lee lo que hay en pantalla, carga el contexto previo de la oferta, y genera respuestas personalizadas para cada pregunta del formulario.
+Interactive mode for when the candidate is filling out a job application form in Chrome. Read the visible form, load the existing offer context, and generate tailored answers for each field.
 
-## Requisitos
+## Requirements
 
-- **Mejor con Playwright visible**: En modo visible, el candidato ve el navegador y Claude puede interactuar con la página.
-- **Sin Playwright**: el candidato comparte un screenshot o pega las preguntas manualmente.
+- **Best with visible Playwright**: the candidate can see the browser while Claude interacts with the page.
+- **Without Playwright**: the candidate shares screenshots or pastes form questions manually.
 
 ## Workflow
 
 ```
-1. DETECTAR    → Leer Chrome tab activa (screenshot/URL/título)
-2. IDENTIFICAR → Extraer empresa + rol de la página
-3. BUSCAR      → Match contra reports existentes en reports/
-4. CARGAR      → Leer report completo + Section G (si existe)
-5. COMPARAR    → ¿El rol en pantalla coincide con el evaluado? Si cambió → avisar
-6. ANALIZAR    → Identificar TODAS las preguntas del formulario visibles
-7. GENERAR     → Para cada pregunta, generar respuesta personalizada
-8. PRESENTAR   → Mostrar respuestas formateadas para copy-paste
+1. DETECT    -> Read active browser tab (screenshot/URL/title)
+2. IDENTIFY  -> Extract company and role from page
+3. SEARCH    -> Match against existing reports in reports/
+4. LOAD      -> Read full report and Section G if present
+5. COMPARE   -> Check if on-page role matches evaluated role
+6. ANALYSE   -> Identify ALL visible form questions
+7. GENERATE  -> Produce tailored answer for each question
+8. PRESENT   -> Return formatted copy-paste answers
 ```
 
-## Paso 1 — Detectar la oferta
+## Step 1 - Detect the offer
 
-**Con Playwright:** Tomar snapshot de la página activa. Leer título, URL, y contenido visible.
+**With Playwright:** take a snapshot of the active page. Read title, URL, and visible content.
 
-**Sin Playwright:** Pedir al candidato que:
-- Comparta un screenshot del formulario (Read tool lee imágenes)
-- O pegue las preguntas del formulario como texto
-- O diga empresa + rol para que lo busquemos
+**Without Playwright:** ask the candidate to:
 
-## Paso 2 — Identificar y buscar contexto
+- share a screenshot of the form (Read tool supports images)
+- paste the questions as text
+- provide company and role so we can search reports
 
-1. Extraer nombre de empresa y título del rol de la página
-2. Buscar en `reports/` por nombre de empresa (Grep case-insensitive)
-3. Si hay match → cargar el report completo
-4. Si hay Section G → cargar los draft answers previos como base
-5. Si NO hay match → avisar y ofrecer ejecutar auto-pipeline rápido
+## Step 2 - Identify and load context
 
-## Paso 3 — Detectar cambios en el rol
+1. Extract company name and role title from the page
+2. Search `reports/` by company name (case-insensitive)
+3. If a match exists, load the full report
+4. If Section G exists, use draft answers as baseline
+5. If no match exists, warn and offer quick auto-pipeline evaluation
 
-Si el rol en pantalla difiere del evaluado:
-- **Avisar al candidato**: "El rol ha cambiado de [X] a [Y]. ¿Quieres que re-evalúe o adapto las respuestas al nuevo título?"
-- **Si adaptar**: Ajustar las respuestas al nuevo rol sin re-evaluar
-- **Si re-evaluar**: Ejecutar evaluación A-F completa, actualizar report, regenerar Section G
-- **Actualizar tracker**: Cambiar título del rol en applications.md si procede
+## Step 3 - Detect role changes
 
-## Paso 4 — Analizar preguntas del formulario
+If the role on screen differs from the evaluated report:
 
-Identificar TODAS las preguntas visibles:
-- Campos de texto libre (cover letter, why this role, etc.)
-- Dropdowns (how did you hear, work authorization, etc.)
-- Yes/No (relocation, visa, etc.)
-- Campos de salario (range, expectation)
-- Upload fields (resume, cover letter PDF)
+- warn candidate: "The role changed from [X] to [Y]. Re-evaluate or adapt existing answers?"
+- if adapt: tailor responses to new title without full re-evaluation
+- if re-evaluate: run full A-F evaluation, update report, regenerate Section G
+- update tracker role title in `data/applications.md` if required
 
-Clasificar cada pregunta:
-- **Ya respondida en Section G** → adaptar la respuesta existente
-- **Nueva pregunta** → generar respuesta desde el report + cv.md
+## Step 4 - Analyse form questions
 
-## Paso 5 — Generar respuestas
+Identify ALL visible questions:
 
-Para cada pregunta, generar la respuesta siguiendo:
+- free-text fields (cover letter, why this role, etc.)
+- dropdowns (source, work authorisation, etc.)
+- yes/no fields (relocation, visa, etc.)
+- salary fields (range, expectations)
+- upload fields (resume, cover letter PDF)
 
-1. **Contexto del report**: Usar proof points del bloque B, historias STAR del bloque F
-2. **Section G previa**: Si existe una respuesta draft, usarla como base y refinar
-3. **Tono "I'm choosing you"**: Mismo framework del auto-pipeline
-4. **Especificidad**: Referenciar algo concreto del JD visible en pantalla
-5. **career-ops proof point**: Incluir en "Additional info" si hay campo para ello
+Classify each question:
 
-**Formato de output:**
+- already answered in Section G -> adapt existing draft
+- new question -> generate from report + `cv.md`
+
+## Step 5 - Generate answers
+
+For each question:
+
+1. Use report evidence from section B and STAR stories from section F
+2. Reuse Section G draft answers when available
+3. Keep "I'm choosing you" tone from auto-pipeline
+4. Reference one concrete JD detail visible on the page
+5. Include one career-ops proof point in "Additional information" fields where relevant
+6. Keep a personal voice that sounds written by the candidate, not AI
+7. Avoid em dashes, filler lines, and repetitive sentence shapes
+8. Keep responses to 2-4 sentences, one idea per sentence
+
+**Output format:**
 
 ```
-## Respuestas para [Empresa] — [Rol]
+## Answers for [Company] - [Role]
 
-Basado en: Report #NNN | Score: X.X/5 | Arquetipo: [tipo]
+Based on: Report #NNN | Score: X.X/5 | Archetype: [type]
 
 ---
 
-### 1. [Pregunta exacta del formulario]
-> [Respuesta lista para copy-paste]
+### 1. [Exact form question]
+> [Copy-paste answer]
 
-### 2. [Siguiente pregunta]
-> [Respuesta]
+### 2. [Next question]
+> [Answer]
 
 ...
 
 ---
 
-Notas:
-- [Cualquier observación sobre el rol, cambios, etc.]
-- [Sugerencias de personalización que el candidato debería revisar]
+Notes:
+- [Any role change or assumptions]
+- [Suggested final personal edits before submit]
 ```
 
-## Paso 6 — Post-apply (opcional)
+## Step 6 - Post-apply (optional)
 
-Si el candidato confirma que envió la aplicación:
-1. Actualizar estado en `applications.md` de "Evaluada" a "Aplicado"
-2. Actualizar Section G del report con las respuestas finales
-3. Sugerir siguiente paso: `/career-ops contacto` para LinkedIn outreach
+If the candidate confirms they submitted:
+
+1. Update status in `data/applications.md` from `Evaluated` to `Applied`
+2. Update report Section G with final submitted answers
+3. Suggest next step: `/career-ops contacto` for LinkedIn outreach
 
 ## Scroll handling
 
-Si el formulario tiene más preguntas que las visibles:
-- Pedir al candidato que haga scroll y comparta otro screenshot
-- O que pegue las preguntas restantes
-- Procesar en iteraciones hasta cubrir todo el formulario
+If the form has more questions than currently visible:
+
+- ask candidate to scroll and share another screenshot
+- or paste remaining questions
+- process iteratively until all fields are covered
+

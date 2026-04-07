@@ -1,30 +1,34 @@
-# Modo: project — Evaluación de Proyecto Portfolio
+# Mode: project - Portfolio Project Evaluation
 
-Scoring 6 dimensiones (1-5):
+Score each project across 6 dimensions (1-5):
 
-| Dimensión | Peso | 5 = ... | 1 = ... |
-|-----------|------|---------|---------|
-| Señal para roles target | 25% | Directamente demuestra skill del JD | No relacionado |
-| Unicidad | 20% | Nadie ha hecho esto | Todo el mundo lo tiene |
-| Demo-ability | 20% | Live demo en 2 min | Solo código, no visual |
-| Potencial de métricas | 15% | Métricas claras (latency, cost, accuracy) | Sin métricas posibles |
-| Tiempo a MVP | 10% | 1 semana | 3+ meses |
-| Potencial de historia STAR | 10% | Historia rica con trade-offs | Solo implementación |
 
-## Requisitos de "Interview Pack"
+| Dimension               | Weight | 5 means                                 | 1 means                  |
+| ----------------------- | ------ | --------------------------------------- | ------------------------ |
+| Signal for target roles | 25%    | Directly proves JD-relevant skill       | Not relevant             |
+| Uniqueness              | 20%    | Distinctive and hard to copy            | Common project           |
+| Demo quality            | 20%    | Live demo in 2 minutes                  | Code only, no clear demo |
+| Metrics potential       | 15%    | Clear metrics (latency, cost, accuracy) | No measurable outcomes   |
+| Time to MVP             | 10%    | 1 week                                  | 3+ months                |
+| STAR story potential    | 10%    | Strong trade-offs and learning story    | Implementation only      |
 
-Para cada proyecto aprobado:
-1. **One-pager**: producto + arquitectura + métricas + plan de evaluación
-2. **Demo**: URL live o walkthrough grabado de 2 min
-3. **Postmortem**: qué funcionó, qué no, mitigaciones
 
-## Plan 80/20
+## Interview pack requirements
 
-- Semana 1 → MVP con métrica core
-- Semana 2 → polish + interview pack
+For each approved project:
 
-## Veredictos
+1. **One-pager**: product, architecture, metrics, evaluation plan
+2. **Demo**: live URL or 2-minute walkthrough recording
+3. **Postmortem**: what worked, what failed, and mitigations
 
-- **CONSTRUIR** → plan con milestones semanales
-- **SKIP** → por qué y qué hacer en su lugar
-- **PIVOTAR A [alternativa]** → variante más impactante
+## 80/20 build plan
+
+- Week 1: MVP with one core metric
+- Week 2: polish and interview pack
+
+## Verdicts
+
+- **BUILD**: weekly milestone plan
+- **SKIP**: clear reason and better alternative
+- **PIVOT TO [alternative]**: higher-impact variant
+
